@@ -32,7 +32,7 @@ h2 {
 
 h1 {
   font-family: var(--default-font-family);
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   color: var(--font-color);
 }
@@ -69,4 +69,10 @@ p {
   font-size: 16px;
   font-weight: 400;
   color: var(--font-color);
+}
+
+.projects {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
 }
