@@ -12,7 +12,7 @@ font-family: 'Poppins', sans-serif; */
 .header {
   background-color: var(--bgr-color);
   text-align: center;
-  padding: 90px 0;
+  padding: 50px 0;
 }
 
 .header p {
@@ -34,5 +34,39 @@ h1 {
   font-family: var(--default-font-family);
   font-size: 25px;
   font-weight: 600;
+  color: var(--font-color);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 350px;
+}
+a {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--font-color);
+}
+
+:hover a {
+  color: var(--font-color);
+}
+
+p {
+  margin-top: 20px;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
   color: var(--font-color);
 }
