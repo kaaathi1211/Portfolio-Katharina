@@ -2,8 +2,9 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-style: italic;
+.root {
+  --nav-color: #749bc2;
+  --bgr-color: #f6f4eb;
+  --font-color: #0e2954;
+  --default-font-family: "Montserrat", sans-serif;
 }
