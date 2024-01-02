@@ -87,15 +87,41 @@ p {
   margin-right: 80px;
 }
 
+.about-me {
+  padding: 160px 20px;
+}
+
+.about-me h2 {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.about-me h1,
+p {
+  text-align: center;
+}
+
+.about-links {
+  text-align: center;
+  font-weight: 500;
+}
+
+.about-img {
+  border-radius: 6px;
+}
+
 @media (max-width: 768px) {
   .custom-size-img {
     max-height: 100%;
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   .text {
     margin-top: 20px;
     margin-right: 0;
+    text-align: center;
   }
 }
 
