@@ -125,6 +125,21 @@ p {
   }
 }
 
+.contact-information {
+  background-color: var(--bgr-color);
+  padding: 20px;
+}
+
+.email {
+  font-weight: bold;
+}
+
+.i {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
 @media (min-width: 992px) {
   .custom-size-img {
     max-height: 75%;
