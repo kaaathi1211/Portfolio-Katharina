@@ -118,7 +118,7 @@ p {
 }
 
 .about-me {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .about-me h2 {
@@ -132,6 +132,7 @@ p {
 }
 
 .about-links {
+  color: var(--font-color);
   text-align: center;
   font-weight: 500;
 }
@@ -177,13 +178,7 @@ footer {
   margin-left: 0px;
 }
 
-@media (min-width: 992px) {
-  /*Large screen sizes*/
-}
-
 @media (max-width: 992px) {
-  /*Medium screen sizes*/
-
   .text {
     margin-top: 40px;
     margin-right: 20px;
