@@ -165,6 +165,13 @@ p {
   font-weight: bold;
 }
 
+.btn.btn-primary {
+  background-color: var(--font-color);
+  border: none;
+  color: var(--bgr-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 footer {
   padding: 0;
 }
