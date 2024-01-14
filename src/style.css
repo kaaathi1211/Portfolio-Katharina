@@ -185,6 +185,16 @@ footer {
   margin-left: 0px;
 }
 
+a {
+  color: #0e2954;
+}
+
+.footer-para {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
 @media (max-width: 992px) {
   .text {
     margin-top: 40px;
